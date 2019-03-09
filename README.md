@@ -5,8 +5,8 @@ programmer to combine the ease of creating a GUI application using Qt with
 the powerful plotting and analysis functionality of ROOT.  
 
 ## Dependencies ##
-This code is tested with Qt 5.5, ROOT 6.08, and CMake 3.5. It should work
-with any version of Qt5 and ROOT going back to 5.34 but no guarantees!  
+This code is tested with Qt 5.9, ROOT 6.16, and CMake 3.10. It should work
+with any version of Qt5 and most versions of ROOT6+.
 
 ## How does it work? ##
 The QTCanvas class inherits from QWidget and acts as a wrapper around the
