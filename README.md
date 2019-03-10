@@ -25,3 +25,7 @@ research analysis work.<br>
 Thanks to those who attempted to do this at various points and posted their
 code online, allowing me to cobble this together. I hope that by making
 this available, others can save some time figuring out how to do this!
+
+## Additional Notes ##
+This is not a perfect solution and occasionally there are glitches, such as
+having to click on a canvas for it to display. Just gotta deal with it!
