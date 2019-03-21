@@ -6,7 +6,6 @@ cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 project(qtcanvas)
 
 # Pull in ROOT
-list(APPEND CMAKE_PREFIX_PATH $ENV{ROOTSYS})
 find_package(ROOT REQUIRED)
 include(${ROOT_USE_FILE})
 
@@ -18,7 +17,7 @@ find_package(Qt5Widgets REQUIRED)
 # Set up local stuff
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR})
 set(CMAKE_CXX_FLAGS
-  "-W -Wall -Wextra -pedantic -fPIC -pthread -m64 -std=c++11")
+  "-W -Wall -Wextra -pedantic -fPIC -pthread -m64 -std=c++14")
 file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 file(GLOB HEADERS ${PROJECT_SOURCE_DIR}/include/*.hpp)
 include_directories(${PROJECT_SOURCE_DIR}/include)
