@@ -2,7 +2,7 @@
 This is a simple example demonstrating how to embed a ROOT TCanvas inside a
 Qt application using a wrapper inheriting from QWidget. This allows the
 programmer to combine the ease of creating a GUI application using Qt with
-the powerful plotting and analysis functionality of ROOT.  
+the powerful plotting and analysis functionality of ROOT.
 
 ## Dependencies ##
 This code is tested with Qt 5.9, ROOT 6.16, and CMake 3.10. It should work
@@ -14,7 +14,11 @@ TCanvas. Mouse events registered in the Qt event loop are passed through
 to the TCanvas and a timer tells the ROOT event loop to update every 20 ms.
 The main components that allow this all to work are the QTCanvas
 pass-through functions, the QTimer in the MainWindow, and the changeEvent()
-override in PlotWindow.  
+override in PlotWindow.<br>
+
+Here is a screenshot showing the window created when the Create Plot button
+is clicked:
+![](example.png)
 
 ## Acknowledgements ##
 A few years ago I made a forums post asking how to do this
