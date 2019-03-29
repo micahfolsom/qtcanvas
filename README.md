@@ -18,7 +18,7 @@ override in PlotWindow.<br>
 
 Here is a screenshot showing the window created when the Create Plot button
 is clicked:
-![](example.png)
+![](screenshot.png)
 
 ## Acknowledgements ##
 A few years ago I made a forums post asking how to do this
