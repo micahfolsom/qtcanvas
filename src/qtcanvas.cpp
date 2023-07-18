@@ -1,5 +1,6 @@
 // QTCanvas
 #include "qtcanvas.hpp"
+#include "TVirtualX.h"
 // Qt
 // ROOT
 // std
