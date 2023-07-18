@@ -16,7 +16,8 @@ find_package(Qt5Widgets REQUIRED)
 # Set up local stuff
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR})
 set(CMAKE_CXX_FLAGS
-  "-W -Wall -Wextra -pedantic -fPIC -pthread -m64 -std=c++17")
+  "-W -Wall -Wextra -pedantic -fPIC -pthread -m64")
+set (CMAKE_CXX_STANDARD 17)
 file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 file(GLOB HEADERS ${PROJECT_SOURCE_DIR}/include/*.hpp)
 include_directories(${PROJECT_SOURCE_DIR}/include)
